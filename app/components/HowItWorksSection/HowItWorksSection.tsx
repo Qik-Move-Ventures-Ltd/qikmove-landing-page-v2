@@ -1,4 +1,5 @@
-import SendPackageCard from "./SendPackageCard";
+import ForMovers from "./ForMovers/ForMovers";
+import SendPackageCard from "./SendPackageCard/SendPackageCard";
 
 export default function HowItWorksSection() {
   return (
@@ -8,7 +9,10 @@ export default function HowItWorksSection() {
       <h1 className="mt-[15px] mb-[46px] text-[#0B111E] text-5xl font-bold">
         Two sides. One smooth flow.
       </h1>
-      <SendPackageCard />
+      <div>
+        <SendPackageCard />
+        <ForMovers />
+      </div>
     </section>
   );
 }
