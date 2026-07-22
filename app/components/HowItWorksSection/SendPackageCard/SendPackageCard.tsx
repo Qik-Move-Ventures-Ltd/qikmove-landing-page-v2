@@ -34,15 +34,18 @@ const stepList: StepListType[] = [
 
 export default function SendPackageCard() {
   return (
-    <div className="flex justify-between w-full bg-[#FBF9F4] rounded-3xl px-10">
+    <div className="flex flex-col min-[1080px]:flex-row justify-between items-start min-[1080px]:items-center w-full bg-[#FBF9F4] rounded-3xl px-6 min-[1204px]:px-10">
       <div className="py-10">
-        <h3 className="text-[#5A687C] mb-2 text-xs font-semibold">
+        <h3 className="text-[#5A687C] mb-2 text-[10px] min-[386px]:text-xs font-semibold">
           SEND IN 4 STEPS
         </h3>
-        <h1 className="text-[#0B111E] text-3xl font-bold mb-10">
+        <h1
+          className="text-[#0B111E] text-xl min-[386px]:text-2xl min-[477px]:text-3xl font-bold 
+        mb-6 min-[386px]:mb-10"
+        >
           Send packages with ease
         </h1>
-        <div className="flex flex-col gap-y-10">
+        <div className="flex flex-col gap-y-6 min-[1109px]:gap-y-8 min-[1158px]:gap-y-10">
           {stepList.map((item) => (
             <StepItem
               key={item.step}
@@ -60,6 +63,7 @@ export default function SendPackageCard() {
           alt="Image of person holding a phone"
           width={898}
           height={479.7}
+          className=""
         />
       </div>
     </div>
