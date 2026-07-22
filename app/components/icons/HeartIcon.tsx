@@ -1,0 +1,20 @@
+export default function HeartIcon({ className }: { className: string }) {
+  return (
+    <>
+      <svg
+        className={className}
+        viewBox="0 0 32 32"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25.3327 18.6667C27.3193 16.72 29.3327 14.3867 29.3327 11.3333C29.3327 9.38841 28.5601 7.52315 27.1848 6.14788C25.8095 4.77262 23.9443 4 21.9993 4C19.6527 4 17.9993 4.66667 15.9993 6.66667C13.9993 4.66667 12.346 4 9.99935 4C8.05443 4 6.18917 4.77262 4.8139 6.14788C3.43863 7.52315 2.66602 9.38841 2.66602 11.3333C2.66602 14.4 4.66602 16.7333 6.66602 18.6667L15.9993 28L25.3327 18.6667Z"
+          stroke="currentColor"
+          strokeWidth="2.33333"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </>
+  );
+}
