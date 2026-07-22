@@ -9,7 +9,7 @@ import TrackerIcon from "../icons/TrackerIcon";
 export default function FeaturesSection() {
   return (
     <div className="bg-[#F6F6FF] py-20 px-[52px]">
-      <h2 className="text-[#5A687C] text-xs font-semibold">FEATURES</h2>
+      <h2 className="text-[#5A687C] text-xs font-semibold font-inter tracking-[1.2px]">FEATURES</h2>
       <div className="mt-[9px] text-[#0B111E] text-5xl font-bold mb-[35px]">
         <h1>Built for speed.</h1>
         <h1>Engineered for trust.</h1>
