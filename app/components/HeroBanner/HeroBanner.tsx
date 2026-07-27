@@ -6,6 +6,7 @@ import LiveStatusBadge from "./LiveStatusBadge";
 export default function HeroBanner() {
   return (
     <section
+      id="hero"
       className=" mt-20 pl-[20px] min-[522px]:pl-[50px] min-[1107px]:pl-[60px] box-border
       bg-linear-to-tr from-[#FBF9F4] from-50% to-[#3838C557] flex flex-col 
       min-[1000px]:flex-row items-center min-[1000px]:items-start justify-between"
