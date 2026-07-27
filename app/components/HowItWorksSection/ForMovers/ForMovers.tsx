@@ -24,11 +24,19 @@ const stepList = [
 
 export default function ForMovers() {
   return (
-    <div className="mt-4 flex justify-between bg-[#0D0D2F] rounded-3xl mb-2">
-      <div className="p-10 text-[#D9D9FB]">
+    <div
+      className="mt-4 flex flex-col min-[905px]:flex-row justify-between bg-[#0D0D2F] 
+    rounded-3xl mb-2"
+    >
+      <div className="p-6 min-[390px]:px-8 py-8 min-[425px]:p-10 text-[#D9D9FB]">
         <h3 className="text-xs font-semibold">EARN ON YOUR TERMS</h3>
-        <h2 className="text-4xl font-bold mt-2 mb-10">For Movers</h2>
-        <div className="flex flex-col gap-y-10">
+        <h2
+          className="text-2xl min-[347px]:text-3xl min-[391px]:text-4xl font-bold mt-2 mb-6 
+        min-[347px]:mb-10"
+        >
+          For Movers
+        </h2>
+        <div className="flex flex-col gap-y-8 min-[390px]:gap-y-10">
           {stepList.map((item, idx) => (
             <ForMoversStepItem
               key={idx}

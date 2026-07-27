@@ -10,17 +10,19 @@ export default function NavHeader() {
         className="hidden min-[960px]:flex fixed inset-0 bg-white z-[100] h-20 w-full px-12 py-5 shadow-md  
     items-center justify-between"
       >
-        <Image
-          src="/icons/qikmove-brand-logo.svg"
-          alt="Qikmove Logo"
-          width={181.51}
-          height={31.83}
-          priority
-        />
+        <Link href="#hero">
+          <Image
+            src="/icons/qikmove-brand-logo.svg"
+            alt="Qikmove Logo"
+            width={181.51}
+            height={31.83}
+            priority
+          />
+        </Link>
         <nav className="flex items-center gap-x-8">
-          <LinkItem link="" navItemTitle="How it works" />
-          <LinkItem link="" navItemTitle="Features" />
-          <LinkItem link="" navItemTitle="For movers" />
+          <LinkItem link="#how-it-works" navItemTitle="How it works" />
+          <LinkItem link="#features" navItemTitle="Features" />
+          <LinkItem link="#use-cases" navItemTitle="Use cases" />
         </nav>
 
         <div className="flex items-center gap-x-[11px]">

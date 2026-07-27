@@ -6,14 +6,14 @@ import UseCasesItem from "./UseCasesItem";
 
 export default function UseCasesSection() {
   return (
-    <div className="py-20 px-12 bg-[#FBF9F4]">
+    <section id="use-cases" className="scroll-mt-20 py-20 px-6 min-[363px]:px-8 min-[430px]:px-12 bg-[#FBF9F4]">
       <h2 className="text-xs mb-4 text-[#5A687C] tracking-[1.2px] font-semibold font-inter">
         USE CASES
       </h2>
-      <h1 className="text-[#0B111E] tracking-[-2.4px] font-bold text-5xl">
+      <h1 className="text-[#0B111E] tracking-[-2.4px] font-bold text-4xl min-[537px]:text-5xl">
         Whatever you need moved.
       </h1>
-      <div className="grid grid-cols-4 gap-5 mt-8">
+      <div className="grid grid-cols-1 min-[651px]:grid-cols-2 min-[937px]:grid-cols-3 min-[1223px]:grid-cols-4 gap-5 mt-8">
         <UseCasesItem
           heading="Friends & family"
           description="Forget something? Send it across town in one tap"
@@ -35,6 +35,6 @@ export default function UseCasesSection() {
           Icon={CulinaryIcon}
         />
       </div>
-    </div>
+    </section>
   );
 }

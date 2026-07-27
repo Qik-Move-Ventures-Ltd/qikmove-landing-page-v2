@@ -3,7 +3,10 @@ import SendPackageCard from "./SendPackageCard/SendPackageCard";
 
 export default function HowItWorksSection() {
   return (
-    <section className="pt-3 px-[18px] min-[365px]:px-[22px] bg-white">
+    <section
+      id="how-it-works"
+      className="pt-3 scroll-mt-20 px-[18px] min-[365px]:px-[22px] bg-white"
+    >
       <h3 className="text-[#5A687C] text-xs font-semibold">HOW IT WORKS</h3>
       {/* Section Heading */}
       <h1

@@ -28,9 +28,9 @@ export default function SideNavOverlay({
           />
         </div>
         <ul className="w-full flex flex-col items-start gap-y-5">
-          <LinkItem link="" navItemTitle="How it works" />
-          <LinkItem link="" navItemTitle="Features" />
-          <LinkItem link="" navItemTitle="For movers" />
+          <LinkItem link="#how-it-works" navItemTitle="How it works" />
+          <LinkItem link="#features" navItemTitle="Features" />
+          <LinkItem link="#use-cases" navItemTitle="Use cases" />
           <Link href="" className="cursor-pointer">
             <Image
               src="/icons/Google_Play_Store_badge_EN.svg"
