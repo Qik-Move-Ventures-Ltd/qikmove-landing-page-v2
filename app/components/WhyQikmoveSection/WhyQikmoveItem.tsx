@@ -12,7 +12,7 @@ export default function WhyQikmoveItem({
       <span className="w-5 h-5 rounded-full bg-[#BDEE2B] flex items-center justify-center">
         <CheckmarkIcon className="w-[6px] h-1 text-[#0B111E]" />
       </span>
-      <div>
+      <div className="flex-1">
         <h2 className="text-[#0B111E] font-semibold text-lg ">{heading}</h2>
         <p className="text-[#5A687C]">{description}</p>
       </div>
