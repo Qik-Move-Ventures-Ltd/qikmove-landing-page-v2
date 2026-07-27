@@ -11,11 +11,11 @@ export default function Home() {
     <div>
       <HeroBanner />
       <HowItWorksSection />
-      {/* <FeaturesSection />
+      <FeaturesSection />
       <BentoGrid />
       <WhyQikmoveSection />
       <UseCasesSection />
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }
