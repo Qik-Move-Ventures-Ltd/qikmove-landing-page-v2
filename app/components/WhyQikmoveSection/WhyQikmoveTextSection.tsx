@@ -2,18 +2,18 @@ import WhyQikmoveItem from "./WhyQikmoveItem";
 
 export default function WhyQikmoveTextSection() {
   return (
-    <div className="w-[43.6%]">
+    <div className="w-full min-[995px]:w-[43.6%] mt-[90px] min-[995px]:mt-0">
       <h2 className="text-[#5A687C] mb-[11px] font-semibold text-xs font-inter tracking-[1.2px]">
         WHY QIKMOVE
       </h2>
-      <h1 className="font-bold text-5xl tracking-[-2.4px]">
+      <h1 className="font-bold text-4xl min-[1076px]:text-5xl tracking-[-2.4px]">
         Local logistics that actually work.
       </h1>
-      <p className="mt-[31px] text-[#5A687C] text-lg tracking-[0%]">
+      <p className="mt-5 min-[1076px]:mt-[31px] text-[#5A687C] text-lg tracking-[0%]">
         We rebuilt intra-city delivery from the ground up — with the mover, the
         sender, and the receiver all in mind
       </p>
-      <div className="mt-[37px] flex flex-col gap-y-5">
+      <div className="mt-[18px] min-[431px]:mt-[37px] flex flex-col gap-y-5">
         <WhyQikmoveItem
           heading="Vetted, reliable movers"
           description="Every mover is verified, rated and trained on safe handling."

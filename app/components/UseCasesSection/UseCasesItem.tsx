@@ -10,7 +10,10 @@ export default function UseCasesItem({
   description: string;
 }) {
   return (
-    <div className="bg-white rounded-3xl py-4 px-[29px] flex flex-col gap-y-[34px]">
+    <div
+      className="bg-white min-h-[167px] max-w-[359px] rounded-3xl py-5 px-[29px] flex flex-col gap-y-[25px]
+     min-[1460px]:gap-y-[34px]"
+    >
       <span>
         <Icon className="w-8 h-8 text-[#0B111E]" />
       </span>
