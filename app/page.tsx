@@ -5,6 +5,7 @@ import HowItWorksSection from "./components/HowItWorksSection/HowItWorksSection"
 import UseCasesSection from "./components/UseCasesSection/UseCasesSection";
 import WhyQikmoveSection from "./components/WhyQikmoveSection/WhyQikmoveSection";
 import Footer from "./components/Footer/Footer";
+import ContactSection from "./components/ContactSection/ContactSection";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <BentoGrid />
       <WhyQikmoveSection />
       <UseCasesSection />
+      <ContactSection />
       <Footer />
     </div>
   );
