@@ -4,7 +4,9 @@ import HeroBanner from "./components/HeroBanner/HeroBanner";
 import HowItWorksSection from "./components/HowItWorksSection/HowItWorksSection";
 import UseCasesSection from "./components/UseCasesSection/UseCasesSection";
 import WhyQikmoveSection from "./components/WhyQikmoveSection/WhyQikmoveSection";
-import Footer from "./components/Footer/Footer";
+import CtaSection from "./components/CtaSection/CtaSection";
+import ContactSection from "./contact-us/components/ContactSection/ContactSection";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
       <BentoGrid />
       <WhyQikmoveSection />
       <UseCasesSection />
+      <CtaSection />
       <Footer />
     </div>
   );

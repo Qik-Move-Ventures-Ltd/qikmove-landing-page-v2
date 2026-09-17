@@ -32,3 +32,15 @@ body {
 .font-plus-jarkata-sans {
   font-family: var(--font-plus-jakarta), sans-serif;
 }
+
+.font-geist {
+  font-family: var(--font-geist-sans), sans-serif;
+}
+
+.text-dark {
+  color: #0b111e;
+}
+
+.text-gray {
+  color: #5a687c;
+}

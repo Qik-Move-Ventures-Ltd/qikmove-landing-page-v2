@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Footer() {
+export default function CtaSection() {
   return (
     <div className="bg-white text-white pb-8 px-3 min-[386px]:px-5 min-[417px]:px-8 min-[636px]:px-12">
       <div
@@ -23,14 +23,14 @@ export default function Footer() {
               alt="Google playstore badge"
               width={148.5}
               height={44}
-              className="h-auto w-[130px]  min-[755px]:w-[148.5px]"
+              className="h-auto w-[110px] min-[330px]:w-[130px]  min-[755px]:w-[148.5px]"
             />
             <Image
               src="/icons/App_store_badge_dark.svg"
               alt="Apple app store badge"
               width={132}
               height={44}
-              className="h-auto w-[120px]  min-[755px]:w-[132px]"
+              className="h-auto w-[100px] min-[330px]:w-[120px]  min-[755px]:w-[132px]"
             />
           </div>
         </div>
