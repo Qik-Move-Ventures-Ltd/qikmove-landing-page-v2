@@ -14,7 +14,7 @@ export default function MobileNav() {
       className=" flex min-[960px]:hidden fixed inset-0 bg-white z-[100] h-20 w-full px-4 min-[375px]:px-6 min-[565px]:px-8 min-[735px]:px-12 py-5 shadow-md flex 
     items-center justify-between"
     >
-      <Link href="#hero">
+      <Link href="/#hero">
         <Image
           src="/icons/qikmove-brand-logo.svg"
           alt="Qikmove Logo"
