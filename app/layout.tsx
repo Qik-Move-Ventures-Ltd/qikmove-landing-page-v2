@@ -28,6 +28,7 @@ const plusJakartaSans = Plus_Jakarta_Sans({
 export const metadata: Metadata = {
   title: "Qikmove Landing Page",
   description: "Qikmove landing page",
+   colorScheme: "light",
 };
 
 export default function RootLayout({
