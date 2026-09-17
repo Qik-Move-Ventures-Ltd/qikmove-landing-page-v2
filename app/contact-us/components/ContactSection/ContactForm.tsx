@@ -143,8 +143,9 @@ export default function ContactForm() {
       </div>
 
       <button
+        type="submit"
         disabled={isSubmitting}
-        className="w-full py-3 px-5 bg-[#154FAA] text-white font-medium rounded-lg"
+        className="w-full py-3 px-5 bg-[#154FAA] cursor-pointer text-white font-medium rounded-lg"
       >
         {isSubmitting ? "Submitting" : "Submit"}
       </button>

@@ -1,8 +1,8 @@
-import EmailIcon from "../icons/EmailIcon";
-import InstagramIcon from "../icons/InstagramIcon";
-import { LinkedInIcon } from "../icons/LinkedInIcon";
-import TiktokIcon from "../icons/TiktokIcon";
-import TwitterIcon from "../icons/TwitterIcon";
+import EmailIcon from "../../../components/icons/EmailIcon";
+import InstagramIcon from "../../../components/icons/InstagramIcon";
+import { LinkedInIcon } from "../../../components/icons/LinkedInIcon";
+import TiktokIcon from "../../../components/icons/TiktokIcon";
+import TwitterIcon from "../../../components/icons/TwitterIcon";
 import SocialCard from "./SocialCard";
 
 export default function ContactDetails() {
