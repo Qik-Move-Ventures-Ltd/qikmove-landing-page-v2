@@ -32,14 +32,19 @@ export default function SideNavOverlay({
           <LinkItem link="/#features" navItemTitle="Features" />
           <LinkItem link="/#use-cases" navItemTitle="Use cases" />
           <LinkItem link="/contact-us" navItemTitle="Contact us" />
-          <Link href="" className="cursor-pointer">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.qikmove.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+          >
             <Image
               src="/icons/Google_Play_Store_badge_EN.svg"
               alt="Google Playstore badge"
               width={135}
               height={40}
             />
-          </Link>
+          </a>
           <Link href="" className="cursor-pointer">
             <Image
               src="/icons/apple-app-store-badge.svg"

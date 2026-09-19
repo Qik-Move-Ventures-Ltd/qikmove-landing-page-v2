@@ -27,14 +27,19 @@ export default function NavHeader() {
         </nav>
 
         <div className="flex items-center gap-x-[11px]">
-          <Link href="" className="cursor-pointer">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.qikmove.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+          >
             <Image
               src="/icons/google-play-store-badge.svg"
               alt="Google Playstore badge"
               width={135}
               height={40}
             />
-          </Link>
+          </a>
           <Link href="" className="cursor-pointer">
             <Image
               src="/icons/apple-app-store-badge.svg"
