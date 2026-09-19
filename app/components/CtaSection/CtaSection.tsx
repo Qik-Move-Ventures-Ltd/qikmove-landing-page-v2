@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function CtaSection() {
   return (
@@ -18,13 +19,20 @@ export default function CtaSection() {
         </p>
         <div className="mt-3 min-[417px]:mt-6">
           <div className="flex items-center gap-x-[11px]">
-            <Image
-              src="/icons/Google_Play_Store_badge_EN.svg"
-              alt="Google playstore badge"
-              width={148.5}
-              height={44}
-              className="h-auto w-[110px] min-[330px]:w-[130px]  min-[755px]:w-[148.5px]"
-            />
+            <a
+              href="https://play.google.com/store/apps/details?id=com.qikmove.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <Image
+                src="/icons/Google_Play_Store_badge_EN.svg"
+                alt="Google playstore badge"
+                width={148.5}
+                height={44}
+                className="h-auto w-[110px] min-[330px]:w-[130px]  min-[755px]:w-[148.5px]"
+              />
+            </a>
             <Image
               src="/icons/App_store_badge_dark.svg"
               alt="Apple app store badge"
